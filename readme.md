@@ -51,5 +51,5 @@ Space complexity: O(n)
 ### Running
 
 ```bash
-node .\orderString.js
+node .\testOrderString.js
 ```

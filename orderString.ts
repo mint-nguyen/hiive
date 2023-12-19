@@ -1,4 +1,7 @@
-function orderString(str: string, customAlphabet?: string): string {
+export default function orderString(
+	str: string,
+	customAlphabet?: string
+): string {
 	if (!customAlphabet) {
 		// Standard alphabetical order
 		return str.toLowerCase().split("").sort().join("");
@@ -19,6 +22,3 @@ function orderString(str: string, customAlphabet?: string): string {
 			.join("");
 	}
 }
-
-console.log(orderString("HiiveIsLive"));
-console.log(orderString("HiiveIsLive", "zyxwvutsrqponmlkjihgfedcba"));

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function orderString(str, customAlphabet) {
     if (!customAlphabet) {
         // Standard alphabetical order
@@ -19,5 +21,4 @@ function orderString(str, customAlphabet) {
             .join("");
     }
 }
-console.log(orderString("HiiveIsLive"));
-console.log(orderString("HiiveIsLive", "zyxwvutsrqponmlkjihgfedcba"));
+exports.default = orderString;
